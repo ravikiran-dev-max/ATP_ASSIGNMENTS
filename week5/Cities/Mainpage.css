@@ -1,0 +1,42 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cities container */
+.cities {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* List styling */
+.cities ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* List items */
+.cities li {
+    margin: 10px 0;
+}
+
+/* Links */
+.cities a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: normal;
+}
+.cities a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}

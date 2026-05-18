@@ -1,0 +1,40 @@
+/* Reset default browser styles */
+body {
+    margin: 0;
+    height: 100vh;                          /* Full viewport height */
+    background-color: rgb(133, 180, 219);   /* Light blue background */
+    background-size: cover;                 /* Cover entire area if using an image */
+    background-position: center;            /* Center background image */
+    display: flex;                          /* Flexbox for centering */
+    justify-content: center;                /* Center horizontally */
+    align-items: center;                    /* Center vertically */
+    font-family: Arial, sans-serif;         /* Clean readable font */
+}
+
+/* Registration box container */
+.regbox {
+    background: rgba(91, 170, 199, 0.85);   /* Semi-transparent background */
+    padding: 25px 35px;                     /* Inner spacing */
+    border-radius: 10px;                    /* Rounded corners */
+    text-align: center;                     /* Center text inside */
+    opacity: 0.89;                          /* Slight transparency */
+}
+
+/* Labels for inputs */
+label {
+    display: inline-block;                  /* Keep label inline but block-like */
+    width: 90px;                            /* Fixed width for alignment */
+    text-align: left;                       /* Align text to the left */
+}
+
+/* Input fields */
+input {
+    padding: 5px;                           /* Inner spacing */
+}
+
+/* Submit button */
+button {
+    padding: 8px 20px;                      /* Inner spacing */
+    border-radius: 30px;                    /* Rounded pill shape */
+    cursor: pointer;                        /* Pointer on hover */
+}

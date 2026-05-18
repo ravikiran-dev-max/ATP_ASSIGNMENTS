@@ -1,0 +1,23 @@
+h2{
+ 
+   text-align:center;
+}
+img{
+    margin-top: 20px;
+    display:block;
+    margin:auto;
+}
+body{
+   background-color:antiquewhite;
+}
+hr{
+    color: aqua;
+    
+}
+h3{
+  color: red; 
+}
+div{
+    margin-left: 200px;
+    margin-right: 200px;
+}

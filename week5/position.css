@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width:100px;
+    border-radius: 20px;
+}
+.parent{
+    width:350px;
+    height:400px;
+    background: #2687b4;
+    margin:300px;
+    margin-left:500px;
+    margin-top:80px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 10px 10px  25px rgb(1, 2, 19);
+    text-align: center;
+}
+.child1{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+}
+.child2{
+     position: absolute;
+     top:350px;
+     left:120px;
+     border-radius:100px;
+}
+p{
+    margin:20px;
+}
+.img3{
+    margin-top:80px;
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+}

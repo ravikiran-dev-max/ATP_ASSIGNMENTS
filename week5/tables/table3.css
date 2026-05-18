@@ -1,0 +1,19 @@
+/* Apply styles to table, header cells, and data cells */
+table, th, td {
+    border: 1px solid black;     /* Solid black border around table and cells */
+    border-collapse: collapse;   /* Merge borders into single line */
+    text-align: center;          /* Center text inside cells by default */
+    padding: 15px;               /* Inner spacing for readability */
+}
+
+/* Table styling */
+table {
+    margin: auto;                /* Center table horizontally */
+    margin-top: 150px;           /* Space above table */
+    width: 450px;                /* Fixed table width */
+}
+
+/* Table headers specifically */
+th {
+    text-align: left;            /* Align header text to the left */
+}

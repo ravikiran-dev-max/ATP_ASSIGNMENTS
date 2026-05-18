@@ -1,0 +1,28 @@
+/* Reset default styles for consistency */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Table styling */
+table {
+    width: 500px;                 /* Fixed table width */
+    margin: auto;                 /* Center table horizontally */
+    margin-top: 150px;            /* Space above table */
+    border-collapse: collapse;    /* Merge borders into single line */
+}
+
+/* Table headers and cells */
+th, td {
+    padding: 10px;                /* Inner spacing */
+    text-align: center;           /* Center text inside cells */
+    border: 1px solid black;      /* Solid border around cells */
+    color: rgb(0, 0, 0);          /* Black text */
+    background-color: rgb(189, 189, 247); /* Light purple background */
+}
+
+/* Table headers specifically */
+th {
+    color: red;                   /* Red text for headers */
+}

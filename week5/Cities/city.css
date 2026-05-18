@@ -1,0 +1,67 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #74ebd5, #9face6); /* gradient background */
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* City card container */
+.city {
+    background: #fff;
+    color: #333;
+    width: 70%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for card */
+.city:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.city h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #1a237e;
+    letter-spacing: 1px;
+}
+
+/* Paragraph */
+.city p {
+    margin-top: 25px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Image gallery inside card */
+.city img {
+    width: 220px;
+    height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Hover zoom effect */
+.city img:hover {
+    transform: scale(1.1);
+}

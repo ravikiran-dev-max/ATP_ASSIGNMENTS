@@ -1,0 +1,33 @@
+/* Main container for all page blocks */
+.mainblock {
+    margin: 100px;                        /* Outer spacing around container */
+    display: flex;                        /* Flexbox layout */
+    justify-content: space-around;        /* Even spacing between items */
+    gap: 15px;                            /* Space between flex items */
+    padding: 50px;                        /* Inner spacing inside container */
+}
+
+/* Images inside each page block */
+img {
+    width: 100px;                         /* Fixed width */
+    height: 100px;                        /* Fixed height */
+    border-radius: 100px;                 /* Makes image circular */
+}
+
+/* Individual page block styling */
+.pages {
+    width: 100%;                          /* Full width of flex item */
+    background-color: rgb(173, 226, 219); /* Soft teal background */
+    padding: 50px;                        /* Inner spacing */
+    border-radius: 25px;                  /* Rounded corners */
+    border: 1px solid black;              /* Border around block */
+    box-shadow: 0px 0px 50px rgb(39, 182, 218); /* Glow-like shadow */
+    text-align: center;                   /* Center text inside block */
+}
+
+/* Body background styling */
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/light-green-background-delicate-leaves-designs-hand-drawn-soft-tones-space-text-303412231.jpg");
+    background-repeat: no-repeat;         /* Prevent tiling */
+    background-size: cover;               /* Cover entire viewport */
+}

@@ -1,0 +1,65 @@
+### 👤 USER API ENDPOINTS
+
+# Get all users
+GET http://localhost:3002/user-api/users
+
+# Get a single user by Id (example: id=1)
+GET http://localhost:3002/user-api/users/1
+
+# Create a new user (send JSON body with id, name, age)
+POST http://localhost:3002/user-api/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Ravi",
+  "age": 20
+}
+
+# Update an existing user by Id (example: id=1)
+PUT http://localhost:3002/user-api/users/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Kiran",
+  "age": 19
+}
+
+# Delete an existing user by Id (example: id=1)
+DELETE http://localhost:3002/user-api/users/1
+
+
+### 📦 PRODUCT API ENDPOINTS
+
+# Get all products
+GET http://localhost:3002/product-api/products
+
+# Get a single product by Id (example: productId=1)
+GET http://localhost:3002/product-api/products/1
+
+# Create a new product (send JSON body with productId, Brand, price)
+POST http://localhost:3002/product-api/products
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "Brand": "HP",
+  "price": 60000
+}
+
+# Update an existing product by Id (example: productId=1)
+PUT http://localhost:3002/product-api/products/1
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "Brand": "Lenovo",
+  "price": 70000
+}
+
+# Delete an existing product by Id (example: productId=1)
+DELETE http://localhost:3002/product-api/products/1
+
+# Filter products by brand (example: brand=HP)
+GET http://localhost:3002/product-api/products/brand/HP

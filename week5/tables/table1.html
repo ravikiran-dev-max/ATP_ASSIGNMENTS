@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper scaling on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Example</title>
+
+    <!-- Linking external CSS file for styling -->
+    <link rel="stylesheet" href="table1.css">
+</head>
+<body>
+    <!-- First Table: Student Marks -->
+    <table>
+        <!-- Table header row -->
+        <tr>
+            <th>ID</th>
+            <th>Fullname</th>
+            <th>Subjects</th>
+            <th>Marks</th>
+        </tr>  
+
+        <!-- Student 1: Ravi -->
+        <tr>
+            <td rowspan="3">1</td> <!-- ID spans 3 subject rows -->
+            <td rowspan="3">Ravi</td> <!-- Name spans 3 subject rows -->
+            <td>Maths</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>Phy</td>
+            <td>91</td>
+        </tr>
+        <tr>
+            <td>Chem</td>
+            <td>89</td>
+        </tr>
+
+        <!-- Student 2: Bhanu -->
+        <tr>
+            <td rowspan="3">2</td>
+            <td rowspan="3">Bhanu</td>
+            <td>Maths</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Phy</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>Chem</td>
+            <td>90</td>
+        </tr>
+
+        <!-- Student 3: Manoj -->
+        <tr>
+            <td rowspan="3">3</td>
+            <td rowspan="3">Manoj</td>
+            <td>Maths</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Phy</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Chem</td>
+            <td>90</td>
+        </tr>
+
+        <!-- Student 4: Virat -->
+        <tr>
+            <td rowspan="3">4</td>
+            <td rowspan="3">Virat</td>
+            <td>Maths</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Phy</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Chem</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <!-- Second Table: Expenses -->
+    <table>
+        <!-- Table header row -->
+        <tr>
+            <th>Name</th>
+            <th>Expense</th>
+        </tr>
+
+        <!-- Expense rows -->
+        <tr>
+            <td>Arun</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>$50</td>
+        </tr>
+
+        <!-- Total row spanning 2 columns -->
+        <tr>
+            <td colspan="2">Total = $90</td>
+        </tr>
+    </table>
+</body>
+</html>

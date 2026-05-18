@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <!-- Linking external CSS file for styling -->
+    <link rel="stylesheet" href="basicform.css">
+</head>
+
+<body>
+    <!-- Registration box container -->
+    <div class="regbox">
+        <!-- Page heading with underline -->
+        <h2 style="text-decoration: underline;">SIGN IN</h2>
+
+        <!-- Form starts, action points to another page -->
+        <form action="ai_Assistant.html">
+            
+            <!-- Username field -->
+            <label for="firstname">UserName:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="@username">
+            <br><br>
+            
+            <!-- Email field -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" value="email">
+            <br><br>
+
+            <!-- Phone number field -->
+            <label for="phone">Phn No:</label>
+            <input type="number" name="phone" id="phone" placeholder="Phone Number">
+            <br><br>
+             
+            <!-- Gender selection (radio buttons) -->
+            <!-- Note: 'for' attribute not used here, clicking text selects first radio by default -->
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br><br>
+            
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
