@@ -68,8 +68,3 @@
 - Modify colors in `QuickBlog.css` to match your branding.
 
 ---
-
-## 📝 License
-
-This project is for **educational/demo purposes**.  
-Feel free to modify and use it in your own projects.

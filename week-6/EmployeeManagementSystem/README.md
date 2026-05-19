@@ -6,6 +6,14 @@ A modern **Full Stack Employee Management System** built with:
 - **Backend:** Node.js, Express.js, MongoDB (Mongoose ODM)
 
 ---
+ ## overview 
+  The employee management system : create an employee with a propername,gmail number etc..
+  (LOgin is not required).
+ 
+ -User can Edit and delete Employees
+ -Click edit button and delete button to make changes
+ -Click view button to overall Details of the particular employee
+ -
 
 ## 📦 Tech Stack
 - **Frontend**
@@ -22,10 +30,3 @@ A modern **Full Stack Employee Management System** built with:
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 🔹 Backend Setup
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd employees-pro/backend
