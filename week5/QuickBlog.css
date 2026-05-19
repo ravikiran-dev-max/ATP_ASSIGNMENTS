@@ -1,88 +1,113 @@
+/* Reset default spacing and set box-sizing */
 *{
     padding:0;
     margin: 0;
     box-sizing:border-box;
 }
+
+/* Main content area styling */
 main{
-   margin: 25px 100px;
-   padding: 20px;
-   background-color: rgb(231, 80, 105);
+   margin: 25px 100px;              /* Outer spacing */
+   padding: 20px;                   /* Inner spacing */
+   background-color: rgb(231, 80, 105); /* Pinkish background */
    margin-top: 0;
    margin-bottom: 0px;
-   color:rgb(221, 216, 216);
+   color:rgb(221, 216, 216);        /* Light text color */
 }
+
+/* Navigation bar styling */
 nav{
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    flex-wrap: wrap;
+    display: flex;                  /* Flexbox layout */
+    justify-content:space-around;   /* Even spacing between items */
+    align-items:center;             /* Vertically center items */
+    flex-wrap: wrap;                /* Wrap items on smaller screens */
     padding: 25px;
-    background-color:rgb(248, 246, 246);
+    background-color:rgb(248, 246, 246); /* Light background */
 }
+
+/* Navigation list styling */
 ul{
     width: 300px;
     display:flex;
-    justify-content: space-evenly;
-    list-style: none;
-    color: rgb(0, 0, 0);
-    font-size: 1.3rem;
+    justify-content: space-evenly;  /* Even spacing between list items */
+    list-style: none;               /* Remove bullets */
+    color: rgb(0, 0, 0);            /* Black text */
+    font-size: 1.3rem;              /* Larger font size */
 }
+
+/* Card container styling */
 .cards{
     display:flex;
-    justify-content: space-around;
-    gap:15px;   
+    justify-content: space-around;  /* Spread cards evenly */
+    gap:15px;                       /* Space between cards */
     padding: 20px;
 }
+
+/* Images inside sections */
 section img{
     width:100%;
-    border-radius: 5px;
+    border-radius: 5px;             /* Slightly rounded corners */
 }
+
+/* Headings */
 h1{
-text-align: center;
+    text-align: center;
 }
 h2{
     margin:10px;
     margin-left:20px ;
 }
+
+/* Footer styling */
 footer{
     margin-top: 0;
-   margin: 25px 100px;
-   gap:25px;
-    background-color:rgb(207, 202, 202);
+    margin: 25px 100px;
+    gap:25px;
+    background-color:rgb(207, 202, 202); /* Light gray background */
 }
+
+/* Button styling */
 button{
     margin-top:10px;
     background-color:pink;
     border: none;
 }
+
+/* Paragraph container styling */
 .para{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  /* Spread text evenly */
 }
 
-/*meadia Queries*/
+/* ---------------- MEDIA QUERIES ---------------- */
 
+/* Responsive heading size */
 h1{
-    font-size: clamp(1rem,8vw,3rem);
+    font-size: clamp(1rem,8vw,3rem); /* Flexible font size */
 }
+
+/* Responsive image size */
 img{
     width:100%;
-    max-width: 700px;
+    max-width: 700px;               /* Prevent images from being too large */
 }
+
+/* For screens wider than 600px */
 @media screen and (min-width:600px) {
     body{
-        background-color: rgb(160, 160, 157);
+        background-color: rgb(160, 160, 157); /* Gray background */
     }
 }   
+
+/* For screens smaller than 600px */
 @media screen and (max-width:599px) {
     body{
-        background-color: rgb(146, 117, 145)
-        ;
+        background-color: rgb(146, 117, 145); /* Purple-gray background */
     }
     .cards{
-     flex-direction: column;
+     flex-direction: column;        /* Stack cards vertically */
     }
     main{
-        margin: 25px 20px;
+        margin: 25px 20px;           /* Reduce side margins */
     }
 }
