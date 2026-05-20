@@ -4,7 +4,7 @@ This repository contains modular JavaScript examples demonstrating **core concep
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 - `CustomCalculationFunctions.js` → Arithmetic functions (addition, subtraction, multiplication, division, percentage).
 - `DestructuringArray.js` → Array and object destructuring.
@@ -28,7 +28,7 @@ This repository contains modular JavaScript examples demonstrating **core concep
 
 ---
 
-## 🚀 Concepts Covered
+## Concepts Covered
 
 ### 1. Functions
 - Arithmetic functions and rest parameters.
@@ -75,7 +75,7 @@ This repository contains modular JavaScript examples demonstrating **core concep
 
 ---
 
-## 📝 Usage
+## Usage
 
 Run any file with Node.js:
 

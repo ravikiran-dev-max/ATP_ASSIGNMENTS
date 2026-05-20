@@ -1,6 +1,6 @@
-# 🌆 TABLES
+# TABLES
 
-## 📖 Overview
+##  Overview
 This folder is a simple **Tables forms** built with HTML and CSS.  
 It includes a **different** that lists student names and id marks and etc
 

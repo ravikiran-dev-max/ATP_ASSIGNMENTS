@@ -5,7 +5,7 @@ It includes two separate routers: one for **users** and one for **products**, ea
 
 ---
 
-## 📂 File Structure
+## File Structure
 APIS
 - `usersapi.js` → User API routes
 - `productApi.js` → Product API routes
@@ -13,7 +13,7 @@ APIS
 
 ---
 
-## 🚀 Concepts Covered
+##  Concepts Covered
 
 ### User API (`userapp`)
 - **GET `/user-api/users`** → Fetch all users.
@@ -32,7 +32,7 @@ APIS
 
 ---
 
-## 📝 Usage
+## Usage
 
 1. Install dependencies:
    ```bash

@@ -4,7 +4,7 @@ This repository contains simple HTML examples with comments to illustrate basic 
 
 ---
 
-## 📄 Example 1: Basic Page with Headings, Paragraphs, and Lists
+## Example 1: Basic Page with Headings, Paragraphs, and Lists
 **File:** `UnorederedList.html`
 
 ### Features:
@@ -17,7 +17,7 @@ This example demonstrates how to structure text content and lists in a webpage.
 
 ---
 
-## 🐱 Example 2: Pochi The Cat Profile Page
+## Example 2: Pochi The Cat Profile Page
 **File:** `PochiTheCat.html`
 
 ### Features:
@@ -31,7 +31,7 @@ This example shows how to build a simple profile page with text, images, and lin
 
 ---
 
-## 🥗 Example 3: Nested Lists
+## Example 3: Nested Lists
 **File:** `NestedUnorderedList.html`
 
 ### Features:
@@ -43,14 +43,14 @@ This example demonstrates how to create hierarchical lists in HTML.
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 1. Open any `.html` file in a web browser.
 2. Observe the structure and layout.
 3. Modify text, images, or lists to experiment with HTML basics.
 
 ---
 
-## 📚 Learning Notes
+## Learning Notes
 - Always include `<!DOCTYPE html>` at the top of your HTML files.
 - Use comments (`<!-- -->`) to explain sections of your code.
 - Nest lists carefully to maintain readability.

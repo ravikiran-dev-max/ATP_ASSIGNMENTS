@@ -1,7 +1,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **Navigation Bar**
   - Contains site title, navigation links (`Home`, `Content`, `Contact`), and a search input.
@@ -22,7 +22,7 @@
 
 ---
 
-## 🎨 Styling (QuickBlog.css)
+## Styling (QuickBlog.css)
 
 - **Global Reset**: Margin, padding, and box-sizing reset.
 - **Flexbox Layouts**:
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone or download the project files.
 2. Open `index.html` in any modern web browser.
@@ -48,7 +48,7 @@
 
 ---
 
-## 📱 Responsiveness
+## Responsiveness
 
 - **Desktop (≥600px)**:  
   - Cards displayed in a row.  
@@ -61,7 +61,7 @@
 
 ---
 
-## 🔧 Customization
+##  Customization
 
 - Replace placeholder images (`img src`) with your own blog images.
 - Update author names and descriptions in each `<section>`.

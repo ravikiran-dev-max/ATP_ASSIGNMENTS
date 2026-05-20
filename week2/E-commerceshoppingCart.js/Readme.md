@@ -1,11 +1,11 @@
-# 🛒 E-Commerce Store (JavaScript Project)
+#  E-Commerce Store (JavaScript Project)
 
 This project simulates a **modular e-commerce store** using JavaScript.  
 It demonstrates how to manage products, shopping carts, discounts, and payments in a clean, structured way.
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 - `product.js` → Product database and utility functions
 - `cart.js` → Shopping cart operations (add, remove, update, view, total)
@@ -15,7 +15,7 @@ It demonstrates how to manage products, shopping carts, discounts, and payments 
 
 ---
 
-## 🚀 Concepts Covered
+## Concepts Covered
 
 ### 1. Product Management (`product.js`)
 - **getProductById(id)** → fetch product details by ID.
@@ -100,7 +100,7 @@ Cart Total: 100000
 }
 ---
 
-## 📝 Usage
+## Usage
 
 Run the app with Node.js:
 

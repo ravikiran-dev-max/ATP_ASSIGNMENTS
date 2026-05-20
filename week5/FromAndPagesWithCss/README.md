@@ -1,6 +1,6 @@
-# 🌆 FormPagesWithCss
+#  FormPagesWithCss
 
-## 📖 Overview
+## Overview
 -`Basicform.html` -> Registration form with basic details
 -`basicform.css`  ->css (Styles) for Basicform.html (Registration form)
 -`idcard.html` -> Basic design of Id with name and id and a profile

@@ -52,7 +52,7 @@ function CreateEmp() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black">
+    <div className="min-h-screen flex items-center justify-center ">
       {/* Form container */}
       <div className="bg-white/10 backdrop-blur-lg border border-gray-700 rounded-2xl shadow-2xl p-10 w-full max-w-lg">
         <h1 className="text-4xl font-extrabold text-center text-indigo-400 mb-8 tracking-wide drop-shadow-lg">

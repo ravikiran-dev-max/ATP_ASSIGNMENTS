@@ -73,7 +73,7 @@ This repository contains beginner-friendly JavaScript programs with clear commen
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Save each program in its respective `.js` file.
 2. Run using Node.js:
  ```bash

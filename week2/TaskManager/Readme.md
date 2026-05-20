@@ -5,7 +5,7 @@ It uses **validation functions**, a **task manager**, and a **main runner** to s
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 - `Validate.js` → Validation functions for task inputs
 - `task.js` → Task management logic (add, get all, complete)
@@ -13,7 +13,7 @@ It uses **validation functions**, a **task manager**, and a **main runner** to s
 
 ---
 
-## 🚀 Concepts Covered
+## Concepts Covered
 
 ### 1. Validation (`Validate.js`)
 - **validateTitle(taskTitle)** → ensures title is not empty and has at least 3 characters.
@@ -60,7 +60,7 @@ All Tasks:
 
 ---
 
-## 📝 Usage
+## Usage
 
 Run the app with Node.js:
 

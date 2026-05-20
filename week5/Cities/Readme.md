@@ -1,6 +1,6 @@
-# 🌆 City Showcase Website
+#  City Showcase Website
 
-## 📖 Overview
+##  Overview
 This project is a simple **city showcase website** built with HTML and CSS.  
 It includes a **Main Page** that lists popular cities and links to individual city pages (Hyderabad, Chennai, Bangalore).  
 Each city page displays:

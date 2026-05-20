@@ -15,7 +15,7 @@ A modern **Full Stack Employee Management System** built with:
  -Click view button to overall Details of the particular employee
  -
 
-## 📦 Tech Stack
+## Tech Stack
 - **Frontend**
   - React.js (functional components, hooks)
   - React Router v6 (routing and navigation)
